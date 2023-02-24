@@ -19,8 +19,8 @@ export default createGlobalStyle`
     }
 
     body, input, button, textarea {
+        color: #2e2e52;
         font-family: 'Open Sans', sans-serif;
-        color: #fff;
     }
 
     body {
@@ -43,8 +43,8 @@ export default createGlobalStyle`
     }
 
     .glassMorph {
-        backdrop-filter: blur(16px) saturate(180%);
-        -webkit-backdrop-filter: blur(16px) saturate(180%);
+        backdrop-filter: blur(4px) saturate(180%);
+        -webkit-backdrop-filter: blur(4px) sturate(180%);
         background-color: rgba(255, 255, 255, 0.25);
         border-radius: 12px;
         border: 1px solid rgba(209, 213, 219, 0.3);

@@ -1,7 +1,7 @@
-import { Exercicio01 } from "./exercicio01"
-import { Exercicio02 } from "./exercicio02"
-import { Exercicio03 } from "./exercicio03"
-import { Exercicio04 } from "./exercicio04"
+import { Exercicio01 } from "./Exercicio01"
+import { Exercicio02 } from "./Exercicio02"
+import { Exercicio03 } from "./Exercicio03"
+import { Exercicio04 } from "./Exercicio04"
 import { Container } from "./style"
 
 export const Exercicios = () => {

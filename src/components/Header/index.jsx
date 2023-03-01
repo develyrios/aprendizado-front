@@ -5,7 +5,7 @@ export const Header = () => {
     return (
         <Container className="glassMorph">
             <HeaderTitle>
-                Bev Verso
+                Bev Verso - Fundamentos React
             </HeaderTitle>
         </Container>
     )

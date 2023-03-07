@@ -1,3 +1,5 @@
+import { Button } from "../../../styles/Button"
+
 export const Filho = ({ quandoClicar }) => {
     const acao = () => {
         quandoClicar(Math.random())
@@ -5,9 +7,9 @@ export const Filho = ({ quandoClicar }) => {
 
     return(
         <>
-        <button onClick={acao}>
+        <Button onClick={acao}>
             Gerar valor
-        </button>
+        </Button>
         </>
     )
 }

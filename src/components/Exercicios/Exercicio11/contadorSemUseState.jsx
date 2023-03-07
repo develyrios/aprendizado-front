@@ -1,6 +1,6 @@
 import { Button } from "../../../styles/Button"
 import { Span } from "../../../styles/Text"
-import { ContainerContador } from "./style"
+import { ContainerContador } from "../../../styles/ContainerContador"
 
 export const ContadorSemUseState = () => {
     let numero = 0

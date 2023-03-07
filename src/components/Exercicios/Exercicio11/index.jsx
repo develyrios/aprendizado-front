@@ -8,8 +8,9 @@ export const Exercicio11 = () => {
     return(
         <Card title="Exercício #11 - Contador simples">
             <Paragraph>
-                Mais um caso em que o useState é util
-                para mostrar informações que se modificam.
+                Relembrando: para causar mudanças na interface
+                no react, é necessário useState.
+                Perceba a diferença no exemplo abaixo com contadores simples.
             </Paragraph>
 
             <ContadorSemUseState />

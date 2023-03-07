@@ -1,4 +1,3 @@
-import { Card } from './components/Card'
 import { Exercicios } from './components/Exercicios'
 import { Header } from './components/Header'
 import GlobalStyle from './styles/GlobalStyle'

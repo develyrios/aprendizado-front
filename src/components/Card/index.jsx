@@ -3,7 +3,7 @@ import { Container } from "./style";
 
 export const Card = (props) => {
     return(
-        <Container className="glassMorph">
+        <Container>
             <ContainerTitle>{props.title}</ContainerTitle>
             {props.children}
         </Container>

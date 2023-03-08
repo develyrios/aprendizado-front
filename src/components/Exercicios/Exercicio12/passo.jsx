@@ -1,6 +1,4 @@
-import { useState } from "react"
-
-export const Passe = ({ id, type, title, placeholder, passe, setPasse }) => {
+export const Passo = ({ id, type, title, placeholder, passo, setPasso }) => {
     return(
 
         <>
@@ -11,8 +9,8 @@ export const Passe = ({ id, type, title, placeholder, passe, setPasse }) => {
         <input type={type} 
             id={id} 
             placeholder={placeholder} 
-            value={passe} 
-            onChange={e => setPasse(+e.target.value)}
+            value={passo} 
+            onChange={e => setPasso(+e.target.value)}
         />
         </>
     )

@@ -16,9 +16,9 @@ export const ContadorSemUseState = () => {
     return(
         <ContainerContador>
             <Span>Sem useState: </Span>
-            <Button onClick={aumentarNumero}>+</Button>
-            <Span>{numero}</Span>
             <Button onClick={diminuirNumero}>-</Button>
+            <Span>{numero}</Span>
+            <Button onClick={aumentarNumero}>+</Button>
         </ContainerContador>
     )
 }

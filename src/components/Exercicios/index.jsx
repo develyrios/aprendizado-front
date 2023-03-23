@@ -14,13 +14,11 @@ import { Exercicio13 } from "./Exercicio13"
 import { Exercicio14 } from "./Exercicio14"
 import { Exercicio15 } from "./Exercicio15"
 import { Exercicio16 } from "./Exercicio16"
-import { Exercicio17 } from "./Exercicio17"
 import { Container } from "./style"
 
 export const Exercicios = () => {
     return(
         <Container>
-            <Exercicio17 />
             <Exercicio16 />
             <Exercicio15 />
             <Exercicio14 />

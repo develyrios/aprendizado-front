@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { Button } from "../../../styles/Button"
-import { Span } from "../../../styles/Text"
-import { Card } from "../../Card"
+import { ModalContainer, ModalContent } from "../../../styles/ModalStyle"
+import { ContainerTitle, Span } from "../../../styles/Text"
 
 export const Modal = () => {
 
@@ -11,12 +11,13 @@ export const Modal = () => {
         <>
             {
                 mostrarModal === true ?
-                    <Card title="Esse é o modal">
-                        <Span>Conteudo do modal</Span>
-                        <Button onClick={() => setMostrarModal(false)}>
-                            Fechar Modal
-                        </Button>
-                    </Card>
+                    <ModalContainer>
+                        <ModalContent>
+                            <ContainerTitle>Esse é o modal</ContainerTitle>
+                            <Span>Conteúdo do modal.</Span>
+                            <Button onClick={() => setMostrarModal(false)}>Fechar modal</Button>
+                        </ModalContent>
+                    </ModalContainer>
                     :
                     <Button onClick={() => setMostrarModal(true)}>
                         Abrir modal

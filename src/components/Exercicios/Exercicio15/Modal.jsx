@@ -18,11 +18,12 @@ export const Modal = () => {
                             <Button onClick={() => setMostrarModal(false)}>Fechar modal</Button>
                         </ModalContent>
                     </ModalContainer>
-                    :
-                    <Button onClick={() => setMostrarModal(true)}>
-                        Abrir modal
-                    </Button>
+                    :<></>
             }
+            
+            <Button onClick={() => setMostrarModal(true)}>
+                Abrir modal
+            </Button>
         </>
     )
 }

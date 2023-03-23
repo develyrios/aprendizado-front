@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { Span } from "../../../styles/Text"
-import { Filho } from "./filho"
+import { Filho } from "./Filho"
 
 export const Pai = () => {
     const [valor, setValor] = useState(0)

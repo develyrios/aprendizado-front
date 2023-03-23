@@ -1,7 +1,7 @@
 import { Paragraph } from "../../../styles/Text"
 import { Card } from "../../Card"
-import { ContadorComUseState } from "./contadorComUseState copy"
-import { ContadorSemUseState } from "./contadorSemUseState"
+import { ContadorComUseState } from "./ContadorComUseState copy"
+import { ContadorSemUseState } from "./ContadorSemUseState"
 
 
 export const Exercicio11 = () => {
@@ -9,7 +9,7 @@ export const Exercicio11 = () => {
         <Card title="Exercício #11 - Contador simples">
             <Paragraph>
                 Relembrando: para causar mudanças na interface
-                no react, é necessário useState.
+                no react, é necessário <strong>useState</strong>.
                 Perceba a diferença no exemplo abaixo com contadores simples.
             </Paragraph>
 

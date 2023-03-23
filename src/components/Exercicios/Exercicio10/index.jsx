@@ -1,6 +1,6 @@
 import { Paragraph } from "../../../styles/Text"
 import { Card } from "../../Card"
-import { Input } from "./input"
+import { Input } from "./Input"
 
 
 export const Exercicio10 = () => {
@@ -10,7 +10,7 @@ export const Exercicio10 = () => {
                 Entretanto, é fortemente recomendado
                 o uso de estado em input para controlar o que
                 é passado pro componente a cada caractere
-                digitado. Fazemos isso com useState.
+                digitado. Fazemos isso com <strong>useState</strong>.
             </Paragraph>
 
             <Input id="cor" 

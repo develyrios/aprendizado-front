@@ -1,5 +1,5 @@
 import { Span } from "../../../styles/Text"
-import { Filho } from "./filho"
+import { Filho } from "./Filho"
 
 export const Pai = () => {
     function gerarValorAleatorio(valorGerado) {

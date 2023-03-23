@@ -2,7 +2,7 @@ import { useState } from "react"
 import { Button } from "../../../styles/Button"
 import { ContainerContador } from "../../../styles/ContainerContador"
 import { Span } from "../../../styles/Text"
-import { Passo } from "./passo"
+import { Passo } from "./Passo"
 
 export const Contador = () => {
     const [numero, setNumero] = useState(0)
@@ -16,6 +16,10 @@ export const Contador = () => {
         setNumero(numero-passo)
     }
 
+    const zerarNumero = () => {
+        setNumero(0)
+    }
+
     return(
         <>
             <ContainerContador>
@@ -23,7 +27,9 @@ export const Contador = () => {
                 <Button onClick={diminuirNumero}>-</Button>
                 <Span>{numero}</Span>
                 <Button onClick={aumentarNumero}>+</Button>
+                <Button onClick={zerarNumero}>Zerar valor</Button>
             </ContainerContador>
+
 
             <ContainerContador>
                 <Passo passo={passo} setPasso={setPasso} 

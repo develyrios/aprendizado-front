@@ -1,6 +1,6 @@
 import { Paragraph } from "../../../styles/Text"
 import { Card } from "../../Card"
-import { Pai } from "./pai"
+import { Pai } from "./Pai"
 
 
 export const Exercicio05 = () => {

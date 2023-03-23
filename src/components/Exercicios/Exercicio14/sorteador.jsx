@@ -1,6 +1,6 @@
 import { useState } from "react"
-import { InputQuantidadeDeNumeros } from "./InputQuantidadeDeNumeros"
-import { SequenciaDeNumeros } from "./SequenciaDeNumeros"
+import { InputQuantidadeDeNumeros } from "./inputQuantidadeDeNumeros"
+import { SequenciaDeNumeros } from "./sequenciaDeNumeros"
 
 export const Sorteador = () => {
 

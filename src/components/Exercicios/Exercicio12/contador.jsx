@@ -2,7 +2,7 @@ import { useState } from "react"
 import { Button } from "../../../styles/Button"
 import { ContainerContador } from "../../../styles/ContainerContador"
 import { Span } from "../../../styles/Text"
-import { Passo } from "./Passo"
+import { Passo } from "./passo"
 
 export const Contador = () => {
     const [numero, setNumero] = useState(0)

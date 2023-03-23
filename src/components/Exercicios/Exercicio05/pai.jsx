@@ -1,4 +1,4 @@
-import { Filho } from "./Filho"
+import { Filho } from "./filho"
 
 export const Pai = () => {
     return(

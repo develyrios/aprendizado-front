@@ -1,7 +1,7 @@
 import { Paragraph } from "../../../styles/Text"
 import { Card } from "../../Card"
-import { ContadorComUseState } from "./ContadorComUseState copy"
-import { ContadorSemUseState } from "./ContadorSemUseState"
+import { ContadorComUseState } from "./contadorComUseState copy"
+import { ContadorSemUseState } from "./contadorSemUseState"
 
 
 export const Exercicio11 = () => {

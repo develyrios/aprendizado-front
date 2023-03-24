@@ -1,3 +1,4 @@
+import { useState } from "react"
 import { Exercicio01 } from "./Exercicio01"
 import { Exercicio02 } from "./Exercicio02"
 import { Exercicio03 } from "./Exercicio03"
@@ -14,11 +15,22 @@ import { Exercicio13 } from "./Exercicio13"
 import { Exercicio14 } from "./Exercicio14"
 import { Exercicio15 } from "./Exercicio15"
 import { Exercicio16 } from "./Exercicio16"
+import { Exercicio17 } from "./Exercicio17"
+import { Modal } from "./Exercicio17/Modal"
 import { Container } from "./style"
 
 export const Exercicios = () => {
+    const [mostrarModalExercicio17, setMostrarModalExercicio17] = useState(false)
+
     return(
         <Container>
+            <Modal 
+                mostrarModal={mostrarModalExercicio17}
+                setMostrarModal={setMostrarModalExercicio17}
+            />
+            <Exercicio17 
+                setMostrarModal={setMostrarModalExercicio17}
+            />
             <Exercicio16 />
             <Exercicio15 />
             <Exercicio14 />

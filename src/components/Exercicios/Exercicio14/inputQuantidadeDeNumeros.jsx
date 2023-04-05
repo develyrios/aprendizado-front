@@ -6,18 +6,18 @@ export const InputQuantidadeDeNumeros = ({
     quantidadeDeNumeros, 
     setQuantidadeDeNumeros 
 }) => {
-return(
-    <>
-    <label htmlFor={id}>
-        {title}
-    </label>
-    
-    <input type={type} 
-        id={id} 
-        placeholder={placeholder} 
-        value={quantidadeDeNumeros} 
-        onChange={e => setQuantidadeDeNumeros(+e.target.value)}
-    />
-    </>
-)
+    return(
+        <>
+            <label htmlFor={id}>
+                {title}
+            </label>
+            
+            <input type={type} 
+                id={id} 
+                placeholder={placeholder} 
+                value={quantidadeDeNumeros} 
+                onChange={e => setQuantidadeDeNumeros(+e.target.value)}
+            />
+        </>
+    )
 }

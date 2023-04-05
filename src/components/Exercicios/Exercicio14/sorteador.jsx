@@ -4,7 +4,7 @@ import { SequenciaDeNumeros } from "./sequenciaDeNumeros"
 
 export const Sorteador = () => {
 
-    const [quantidadeDeNumeros,setQuantidadeDeNumeros] = useState()
+    const [quantidadeDeNumeros, setQuantidadeDeNumeros] = useState()
 
     const gerarNumeroNaoContido = (array) => {
         let novoNumero = parseInt(Math.random() * (60 - 1) + 1)

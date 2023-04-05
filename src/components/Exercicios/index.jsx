@@ -19,12 +19,14 @@ import { Exercicio16 } from "./Exercicio16"
 import { Exercicio17 } from "./Exercicio17"
 import { Modal } from "./Exercicio17/Modal"
 import { Exercicio18 } from "./Exercicio18"
+import { Exercicio19 } from "./Exercicio19"
 
 export const Exercicios = () => {
     const [mostrarModalExercicio17, setMostrarModalExercicio17] = useState(false)
 
     return(
         <Container>
+            <Exercicio19 />
             <Exercicio18 />
             <Modal 
                 mostrarModal={mostrarModalExercicio17}
